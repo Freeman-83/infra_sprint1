@@ -37,6 +37,7 @@ server {
 
 }
 server {
+    server_tokens off;
     server_name 51.250.101.169 catownersclub.ddns.net;
 
     location /api/ {
